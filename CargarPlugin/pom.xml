@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jeanse</groupId>
+  <artifactId>CargarPlugin</artifactId>
+  <version>1.0</version>
+  <properties>
+    <maven.compiler.release>25</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <repositories>
+    <repository>
+      <id>spigot-repo</id>
+      <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+    </repository>
+  </repositories>
+  <dependencies>
+    <dependency>
+      <groupId>org.spigotmc</groupId>
+      <artifactId>spigot-api</artifactId>
+      <!-- Ajusta esta versión a la de tu servidor -->
+      <version>26.3-R0.1-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>

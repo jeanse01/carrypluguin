@@ -1,0 +1,5 @@
+name: CargarPlugin
+version: 1.0
+main: com.jeanse.cargar.CargarPlugin
+api-version: '26.3'
+description: Carga bloques y animales con agacharse + clic derecho
